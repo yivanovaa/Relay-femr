@@ -51,5 +51,6 @@ public class BusinessLayerModule extends AbstractModule {
         bind(IVitalService.class).to(VitalService.class);
         bind(IInternetStatusService.class).to(InternetStatusService.class);
         bind(IDailyReportService.class).to(DailyReportService.class);
+        bind(IKitIdentityService.class).to(KitIdentityService.class);
     }
 }

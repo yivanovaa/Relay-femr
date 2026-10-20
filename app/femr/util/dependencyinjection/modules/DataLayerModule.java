@@ -86,6 +86,7 @@ public class DataLayerModule extends AbstractModule {
 
         bind(IInternetStatusRepository.class).to(InternetStatusRepository.class);
         bind(IDailyReportRepository.class).to(DailyReportRepository.class);
+        bind(IKitIdentityRepository.class).to(KitIdentityRepository.class);
 
         // Research
         bind(IResearchEncounter.class).toProvider(ResearchEncounterProvider.class);
